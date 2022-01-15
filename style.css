@@ -12,7 +12,7 @@ body{
 header-area-style
 -------------------------*/
 .container{
-     max-width: 1200px;
+     max-width: 1400px;
      margin: 0 auto;
      padding: 50px;
 }
@@ -50,6 +50,9 @@ section{
      justify-content: space-between;
      align-items: center;
 }
+.left{
+     width: 60%;
+}
 .left-side h1{
      font-size: 4em;
      padding-bottom: 20px;
@@ -75,9 +78,6 @@ section{
 .button i{
      color: #fff;
      margin-left: 10px;
-}
-.right{
-     width: 50%;
 }
 .right img{
      width: 100%;
@@ -109,7 +109,7 @@ section{
      margin-bottom: 50px;
 }
 .section-3 .items{
-     width: 300px;
+     width: 330px;
 }
 .section-3 h2{
      padding:10px 0;
@@ -144,7 +144,7 @@ section{
 }
 .btn{
      margin-top: 50px;
-     width: 96%;
+     width: 95%;
      display: flex;
      align-items: center;
      justify-content: flex-end;
