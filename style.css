@@ -49,6 +49,7 @@ section{
      display: flex;
      justify-content: space-between;
      align-items: center;
+     position: relative;
 }
 .left{
      width: 60%;
@@ -78,6 +79,12 @@ section{
 .button i{
      color: #fff;
      margin-left: 10px;
+}
+.bg-img{
+     position: absolute;
+     top: 0px;
+     right: 0px;
+     z-index: -1;
 }
 .right img{
      width: 100%;
