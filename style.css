@@ -41,3 +41,47 @@ header-area-style
 /*-------------------------
  End header-area-style
 -------------------------*/
+
+/*--------------------------- 
+1st section area style
+----------------------------*/
+section{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.left-side h1{
+     font-size: 4em;
+     padding-bottom: 20px;
+}
+.left-side h3{
+     line-height: 1.5em;
+}
+.button{
+     width: 250px;
+     padding: 20px;
+     background-color:crimson;
+     text-align: center;
+     border-radius: 50px;
+     margin-top: 50px;
+}
+.button a{
+     text-decoration: none;
+     color: #fff;
+     font-size: 1.5em;
+     font-weight: 600;
+     
+}
+.button i{
+     color: #fff;
+     margin-left: 10px;
+}
+.right{
+     width: 50%;
+}
+.right img{
+     width: 100%;
+}
+/*--------------------------- 
+ End 1st section area style
+----------------------------*/
