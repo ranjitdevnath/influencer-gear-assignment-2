@@ -97,8 +97,10 @@ section{
 2nd section area style
 ----------------------------*/
 .section-2{
-     padding-top: 100px;
-     width: 80%;
+     display: flex;
+     justify-content: space-between;
+     padding-top: 150px;
+     width: 90%;
      margin: 0 auto;
 }
 /*--------------------------- 
@@ -114,9 +116,6 @@ section{
 .section-3 h1{
      text-align: center;
      margin-bottom: 50px;
-}
-.section-3 .items{
-     width: 330px;
 }
 .section-3 h2{
      padding:10px 0;
@@ -151,7 +150,6 @@ section{
 }
 .btn{
      margin-top: 50px;
-     width: 95%;
      display: flex;
      align-items: center;
      justify-content: flex-end;
@@ -196,10 +194,13 @@ End 3rd section area style
      width: 50%;
 }
 .section-4 .image img{
-     width: 85%;
+     width: 100%;
      border-radius: 10px;
      box-shadow: 0px 0px 10px;
 }
+/*--------------------------- 
+ End 4th section area style
+----------------------------*/
 
 
 /*---------------------------
@@ -233,3 +234,6 @@ footer .social-icon i{
      font-size: 30px;
      color: #fff;
 }
+/*---------------------------
+     End footer area style
+ ---------------------------- */
