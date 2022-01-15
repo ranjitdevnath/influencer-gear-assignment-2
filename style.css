@@ -85,3 +85,111 @@ section{
 /*--------------------------- 
  End 1st section area style
 ----------------------------*/
+
+/*--------------------------- 
+2nd section area style
+----------------------------*/
+.section-2{
+     padding-top: 100px;
+     width: 80%;
+     margin: 0 auto;
+}
+/*--------------------------- 
+ End 2nd section area style
+----------------------------*/
+
+/*--------------------------- 
+3rd section area style
+----------------------------*/
+.section-3{
+     margin-top: 50px;
+}
+.section-3 h1{
+     text-align: center;
+     margin-bottom: 50px;
+}
+.section-3 .items{
+     width: 300px;
+}
+.section-3 h2{
+     padding:10px 0;
+}
+.section-3 h3, i, small{
+     line-height: 2;
+}
+.section-3 h3, small{
+     color: gray;
+}
+.section-3 small{
+     font-weight:700;
+}
+.section-3 i{
+     color:tomato;
+}
+.photo img{
+     width: 100%;
+}
+.section-3 .items{
+     box-shadow: 2px 2px 5px gray;
+     padding: 15px;
+     border-radius: 5px;
+}
+.section-3 .item{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-gap: 40px;
+}
+.text .font-weight{
+     font-weight: 400;
+}
+.btn{
+     margin-top: 50px;
+     width: 96%;
+     display: flex;
+     align-items: center;
+     justify-content: flex-end;
+}
+.btn i{
+     color: deeppink;
+     margin-left: 10px;
+}
+.btn a{
+     text-decoration: none;
+     color: deeppink;
+     font-size: 1.5em;
+     font-weight:700;}
+/*--------------------------- 
+End 3rd section area style
+----------------------------*/
+
+/*---------------------------
+ footer area style
+ ---------------------------- */
+footer{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: indigo;
+     padding: 40px 0;
+}
+footer .text{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     line-height: 1.5;
+     color: #fff;
+}
+footer .text i{
+     padding: 0 3px;
+     color: #fff;
+}
+footer .social-icon{
+     padding:20px;
+}
+footer .social-icon i{
+     margin:0px 15px;
+     font-size: 30px;
+     color: #fff;
+}
